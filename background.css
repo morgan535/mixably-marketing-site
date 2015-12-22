@@ -1,0 +1,54 @@
+/*div {
+	height: auto;
+	background-color: black;
+	background-image: linear-gradient(black, #000033, #E90352);
+	background-size: cover;
+}*/
+
+
+.container {
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: table;
+    width: 100%
+}
+.container .inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px 0
+}
+.container .inner .max-width {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 968px
+}
+.container#introduction {
+    color: #fff;
+    border-top: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    min-height: 400px;
+    background-color: black;
+	background: radial-gradient(600px 425px at bottom center, rgb(200,3,82), rgb(0,0,51));
+    transition: -webkit-transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+	margin: 0 auto;
+	width: 100%;
+}
+	
+.fmt-svg#mixably_logo {
+    margin-left: 26.5%;
+    margin-top: 10%;
+	width: 47%;
+	height: 47%;
+}
+
+.fmt-svg#coming_soon {
+    margin-left: 32%;
+    margin-top: 2%;
+	width: 35%;
+	height: 35%;
+}
