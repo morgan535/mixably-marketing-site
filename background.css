@@ -1,28 +1,20 @@
-/*div {
-	height: auto;
-	background-color: black;
-	background-image: linear-gradient(black, #000033, #E90352);
-	background-size: cover;
-}*/
-
-
 .container {
     position: relative;
     height: 100%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     display: table;
-    width: 100%
+    width: 100%;
 }
 .container .inner {
     display: table-cell;
     vertical-align: middle;
-    padding: 20px 0
+    padding: 20px 0;
 }
 .container .inner .max-width {
     margin: 0 auto;
     width: 90%;
-    max-width: 968px
+    max-width: 968px;
 }
 .container#introduction {
     color: #fff;
