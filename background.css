@@ -24,23 +24,71 @@
     top: 0px;
     min-height: 400px;
     background-color: black;
-	background: radial-gradient(600px 425px at bottom center, rgb(200,3,82), rgb(0,0,51));
+	background: radial-gradient(600px 325px at bottom center, rgb(200,3,82), rgb(0,0,51));
     transition: -webkit-transform 1s cubic-bezier(0.19, 1, 0.22, 1);
     transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
 	margin: 0 auto;
 	width: 100%;
 }
-	
+
+@media (min-width: 600px) {
+	.container#introduction {
+		color: #fff;
+		border-top: none;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		min-height: 400px;
+		background-color: black;
+		background: radial-gradient(600px 425px at bottom center, rgb(200,3,82), rgb(0,0,51));
+		transition: -webkit-transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+		transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+		margin: 0 auto;
+		width: 100%;
+	}
+}
+
 .fmt-svg#mixably_logo {
-    margin-left: 26.5%;
-    margin-top: 10%;
-	width: 47%;
+    margin-left: 15%;
+    margin-top: 30%;
+	width: 70%;
 	height: 47%;
 }
 
 .fmt-svg#coming_soon {
-    margin-left: 32%;
-    margin-top: 2%;
-	width: 35%;
+    margin-left: 20%;
+    margin-top: 13%;
+	width: 60%;
 	height: 35%;
+}
+
+@media (min-width: 600px) {
+	.fmt-svg#mixably_logo {
+		margin-left: 20%;
+		margin-top: 15%;
+		width: 60%;
+		height: 47%;
+	}
+
+	.fmt-svg#coming_soon {
+		margin-left: 25%;
+		margin-top: 4%;
+		width: 50%;
+		height: 35%;
+	}
+}
+
+@media (min-width: 925px) {
+	.fmt-svg#mixably_logo {
+    	margin-left: 26.5%;
+    	margin-top: 10%;
+		width: 47%;
+		height: 47%;
+	}
+	.fmt-svg#coming_soon {
+		margin-left: 32%;
+		margin-top: 2%;
+		width: 35%;
+		height: 35%;
+	}
 }
